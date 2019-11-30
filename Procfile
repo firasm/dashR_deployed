@@ -1,1 +1,1 @@
-web: gunicorn app:server
+web: R -f app/app.R
