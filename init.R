@@ -1,4 +1,5 @@
-install.packages("dash")
 install.packages("tidyverse")
 install.packages("dashHtmlComponents")
 install.packages("dashCoreComponents")
+install.packages("devtools")
+install_github('plotly/dashR')
