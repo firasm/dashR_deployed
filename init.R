@@ -35,9 +35,9 @@ install.packages("https://cloud.r-project.org/src/contrib/xml2_1.2.0.tar.gz", ty
 install.packages("https://cloud.r-project.org/src/contrib/triebeard_0.3.0.tar.gz", type="source", repos=NULL)
 install.packages("https://cloud.r-project.org/src/contrib/Archive/urltools/urltools_1.7.2.tar.gz", type="source", repos=NULL)
 install.packages("https://cloud.r-project.org/src/contrib/jsonlite_1.6.tar.gz", type="source", repos=NULL)
-install.packages("https://cloud.r-project.org/src/contrib/webutils_0.6.tar.gz", type="source", repos=NULL)
+install.packages("https://cloud.r-project.org/src/contrib/webutils_1.0.tar.gz", type="source", repos=NULL)
 install.packages("https://cloud.r-project.org/src/contrib/brotli_1.2.tar.gz", type="source", repos=NULL)
-install.packages("https://cloud.r-project.org/src/contrib/reqres_0.2.2.tar.gz", type="source", repos=NULL)
+install.packages("https://cloud.r-project.org/src/contrib/reqres_0.2.3.tar.gz", type="source", repos=NULL)
 install.packages("https://cloud.r-project.org/src/contrib/uuid_0.1-2.tar.gz", type="source", repos=NULL)
 install.packages("https://cloud.r-project.org/src/contrib/base64enc_0.1-3.tar.gz", type="source", repos=NULL)
 install.packages("https://cloud.r-project.org/src/contrib/codetools_0.2-16.tar.gz", type="source", repos=NULL)
@@ -45,8 +45,8 @@ install.packages("https://cloud.r-project.org/src/contrib/globals_0.12.4.tar.gz"
 install.packages("https://cloud.r-project.org/src/contrib/Archive/future/future_1.11.1.1.tar.gz", type="source", repos=NULL)
 
 # fiery and friends
-install.packages("https://cloud.r-project.org/src/contrib/routr_0.3.0.tar.gz", type="source", repos=NULL)
-install.packages("https://cloud.r-project.org/src/contrib/fiery_1.1.1.tar.gz", type="source", repos=NULL)
+install.packages("https://cloud.r-project.org/src/contrib/routr_0.4.0.tar.gz", type="source", repos=NULL)
+install.packages("https://cloud.r-project.org/src/contrib/fiery_1.1.2.tar.gz", type="source", repos=NULL)
 
 remotes::install_github("plotly/dash-html-components")
 remotes::install_github("plotly/dash-core-components")
