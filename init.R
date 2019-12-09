@@ -31,7 +31,7 @@ remotes::install_version("shiny", version = "1.2.0", repos = "http://cloud.r-pro
 remotes::install_version("plotly", version = "4.9.0", repos = "http://cloud.r-project.org", upgrade="never")
 
 install.packages("https://cloud.r-project.org/src/contrib/assertthat_0.2.1.tar.gz", type="source", repos=NULL)
-install.packages("https://cloud.r-project.org/src/contrib/xml2_1.2.0.tar.gz", type="source", repos=NULL)
+install.packages("https://cloud.r-project.org/src/contrib/xml2_1.2.2.tar.gz", type="source", repos=NULL)
 install.packages("https://cloud.r-project.org/src/contrib/triebeard_0.3.0.tar.gz", type="source", repos=NULL)
 install.packages("https://cloud.r-project.org/src/contrib/Archive/urltools/urltools_1.7.2.tar.gz", type="source", repos=NULL)
 install.packages("https://cloud.r-project.org/src/contrib/jsonlite_1.6.tar.gz", type="source", repos=NULL)
