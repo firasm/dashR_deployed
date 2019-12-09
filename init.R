@@ -25,7 +25,7 @@ install.packages("heatmaply")
 remotes::install_version("httpuv", version = "1.4.5.1", repos = "http://cloud.r-project.org", upgrade="never")
 
 # installs crayon, digest, htmltools, mime, sourcetools, xtable
-remotes::install_version("shiny", version = "1.4.0", repos = "http://cloud.r-project.org", upgrade="never")
+remotes::install_version("shiny", version = "1.2.0", repos = "http://cloud.r-project.org", upgrade="never")
 
 # installs askpass, assertthat, base64enc, cli, colorspace, crosstalk, curl, data.table, dplyr, fansi, ggplot2, glue, gtable, hexbin, htmlwidgets, httr, labeling, lattice, lazyeval, mgcv, munsell, nlme, openssl, pillar, pkgconfig, plogr, plyr, purrr, RColorBrewer, reshape2, scales, stringi, stringr, sys, tibble, tidyr, tidyselect, utf8, viridisLite, withr, yaml
 remotes::install_version("plotly", version = "4.9.1", repos = "http://cloud.r-project.org", upgrade="never")
