@@ -47,19 +47,12 @@ install.packages("https://cloud.r-project.org/src/contrib/Archive/future/future_
 install.packages("https://cloud.r-project.org/src/contrib/globals_0.12.4.tar.gz", type="source", repos=NULL)
 install.packages("https://cloud.r-project.org/src/contrib/Archive/future/future_1.11.1.1.tar.gz", type="source", repos=NULL)
 
-# # fiery and friends
+# fiery and friends
 install.packages("https://cloud.r-project.org/src/contrib/routr_0.4.0.tar.gz", type="source", repos=NULL)
 install.packages("https://cloud.r-project.org/src/contrib/fiery_1.1.2.tar.gz", type="source", repos=NULL)
-#remotes::install_github("plotly/dash-html-components@v1.0.0")
-#remotes::install_github("plotly/dash-core-components@fface5b") # special commit for v1.0.0
-#remotes::install_github("plotly/dash-table")
 
+# dash components
 remotes::install_github("plotly/dash-table", ref="042ad65")
 remotes::install_github("plotly/dash-html-components", ref="17da1f4")
 remotes::install_github("plotly/dash-core-components", ref="cc1e654")
 remotes::install_github("plotly/dashR", ref="dev", dependencies=FALSE)
-
-# install.packages("manhattanly")
-# remotes::install_github("plotly/dash-cytoscape", ref="update-for-dash-0.1.0")
-# remotes::install_github("plotly/dash-bio", dependencies=FALSE)
-# remotes::install_github("plotly/dash-daq")
