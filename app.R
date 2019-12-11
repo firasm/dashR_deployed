@@ -55,5 +55,5 @@ app$layout(
   )
 )
 
-app$run_server()
-# app$run_server(host = "0.0.0.0", port = Sys.getenv('PORT', 8050))
+#app$run_server()
+app$run_server(host = "0.0.0.0", port = Sys.getenv('PORT', 8050))
