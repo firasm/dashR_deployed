@@ -6,7 +6,10 @@ library(dash)
 library(dashCoreComponents)
 library(dashHtmlComponents)
 library(dashTable)
-library(tidyverse)
+library(tidyr)
+library(tidyselect)
+library(dplyr)
+library(ggplot2)
 library(plotly)
 options(tidyverse.quiet = TRUE,
         repr.plot.width = 6,
