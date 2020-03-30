@@ -3,8 +3,6 @@ library(dashCoreComponents)
 library(dashHtmlComponents)
 library(plotly)
 
-# setwd("/app")
-
 app <- Dash$new()
 
 #You can change colours and styles in the app
