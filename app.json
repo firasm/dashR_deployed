@@ -4,6 +4,6 @@
   "keywords": [
     "heroku",
     "R deployment",
-    "Dash R"
-]
+    "Dash R"],
+  "image": "plotly/heroku-docker-r"
 }
