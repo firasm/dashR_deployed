@@ -27,7 +27,7 @@ p <- ggplot(data=dat, aes(x=lab_session, y=students, fill=likes)) +
 
 graph <- dccGraph(
   id = 'dsci-graph',
-  figure=ggplotly(p)
+  figure=ggplotly(p+theme_bw())
 )
 
 #Here's some text
