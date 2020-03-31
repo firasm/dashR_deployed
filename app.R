@@ -48,7 +48,7 @@ app$layout(
       #we add our graph here
       graph,
       #This image doesn't work and I don't know why
-      htmlImg("https://upload.wikimedia.org/wikipedia/commons/8/81/Two_neurons_connected.svg")
+      htmlImg(src="https://upload.wikimedia.org/wikipedia/commons/8/81/Two_neurons_connected.svg")
     )
   )
 )
