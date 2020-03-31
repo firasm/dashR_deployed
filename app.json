@@ -4,7 +4,13 @@
   "keywords": [
     "heroku",
     "R deployment",
-    "Dash R"],
-  "stack": "container",
-  "image": "plotly/heroku-docker-r",
+    "Dash R"
+],
+"buildpacks": [
+    {
+      "url": "https://github.com/virtualstaticvoid/heroku-buildpack-r.git#heroku-16"
+    }
+  ],
+"stack": "container",
+"image": "plotly/heroku-docker-r"
 }
