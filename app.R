@@ -1,6 +1,4 @@
 library(dash)
-library(dashCoreComponents)
-library(dashHtmlComponents)
 library(plotly)
 
 app <- Dash$new()
@@ -38,17 +36,17 @@ mdText <- "We can display some text using *Markdown*.
 "
 
 app$layout(
-  htmlDiv(
+  div(
     list(
       #See our styles applied to the headers
-      htmlH1('Hello Dash', style = textStyle),
-      htmlH2('This is our R Dashboard', style = textStyle),
+      h1('Hello Dash', style = textStyle),
+      h2('This is our R Dashboard', style = textStyle),
       dccMarkdown(children=mdText, style=list(color = colors$text)),
-      htmlDiv(children = "Let's make a graph!", style = textStyle),
+      div(children = "Let's make a graph!", style = textStyle),
       #we add our graph here
       graph,
       #This image doesn't work and I don't know why
-      htmlImg(src="https://upload.wikimedia.org/wikipedia/commons/8/81/Two_neurons_connected.svg")
+      img(src="https://upload.wikimedia.org/wikipedia/commons/8/81/Two_neurons_connected.svg")
     )
   )
 )
