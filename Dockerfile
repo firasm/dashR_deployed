@@ -1,4 +1,4 @@
-FROM plotly/heroku-docker-r:3.6.3_heroku18
+FROM docker pull rocker/tidyverse
 
 # on build, copy application files
 COPY . /app/
